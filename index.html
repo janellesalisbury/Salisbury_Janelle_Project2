@@ -22,25 +22,265 @@
 	<script src="js/libs/modernizr.custom.min.js"></script>
 
 </head>
-<body>
-	<div data-role = "page">
-		<div data-role = "header" data-position = "fixed">
-			<h1>Janelle's Closet</h1>
-		</div>
-		
-		<div data-role = "content">
-			<p>Testing jquery </p>
-		</div>
-		
-		<div data-role = "footer" data-position = "fixed">
-			<h4>Footer</h4>
-		</div>
-		
-		
-	</div>
+    <body>
+        <div data-role = "page" id = "home">
+            <div data-role = "header" data-position ="fixed">
+                <h1>Clothing Categories</h1>
+            </div>
+        <img src ="Image/JC-logo.png"> 
+        <td>Search:<input type = "text" name = "search" size = "50"> <input type = "submit" value = "Search"></td><br>
+        <div data-role = "content">
+                <p>Add your clothing items and keep a detailed log.</p>
+                <p><a href = "#shoes"  data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Shoes</a> </p>
+                <p><a href = "#jewelry" data-role = "button" data-icon = "arrow-r" data-iconpos = "right"> Jewelry</a></p>
+                <p><a href = "#tops"  data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Tops</a></p>
+                <p><a href = "#bottoms"  data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Bottoms</a></p>
+                <p><a href = "#handbags"  data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Handbags</a></p>
+        </div>
+        <div data-role = "footer" data-position = "fixed">
+                <h4>Footer</h4>
+        </div>
+   </div>
+           
+        <div data-role ="page" id ="shoes" data-add-back-btn = "true">
+            <div data-role ="header" data-position ="fixed">
+                 <h1>Shoes</h1>
+            </div>
+        <div data-role ="content">
+            <ul data-role = "listview">
+                <li>
+                   <a href = "shoes.html">
+                       <image src = "Image/shoes.png"/>
+                       <h3>Heels</h3>
+                       <p>Add your type of heel here!</p>
+                   </a>
+                </li>
+                <li>
+                   <a href = "shoes.html">
+                       <image src = "Image/sandals.png"/>
+                       <h3>Sandals</h3>
+                       <p>Add your type of sandal here!</p>
+                   </a>
+				</li>
+                <li>
+                   <a href = "shoes.html">
+                       <image src = "Image/sneakers.png"/>
+                       <h3>Sneakers</h3>
+                       <p>Add your type of sneaker here!</p>                   
+                   </a>
+				</li>
+                <li>
+                   <a href = "shoes.html">
+                       <image src = "Image/boots.png"/>
+                       <h3>Boots</h3>
+                       <p>Add your type of boot here</p>
+                   </a>
 
-	
+                
+                </li>
+            </ul>
+        </div>
+        <div data-role = "footer" data-position = "fixed"
+                <h4>Footer</h4>
+        </div>
+   </div>
+   
+        <div data-role ="page" id ="jewelry" data-add-back-btn = "true">
+            <div data-role = "header" data-position = "fixed">
+                 <h1>Jewelry</h1>
+            </div>
+            <div data-role = "content">
+                <ul data-role = "listview">
+                    <li>
+                       <a href = "jewelry.html">
+                           <image src = "Image/earrings.png"/>
+                           <h3>Earrings</h3>
+                           <p>Add your earrings here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "jewelry.html">
+                           <image src = "Image/necklace.png"/>
+                           <h3>Necklace's</h3>
+                           <p>Add your necklace's here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "jewelry.html">
+                           <image src = "Image/rings.png"/>
+                           <h3>Rings</h3>
+                           <p>Add rings here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "jewlery.html">
+                           <image src = "Image/bracelet.png"/>
+                           <h3>Bracelets</h3>
+                           <p>Add bracelets here!</p>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role = "footer" data-position = "fixed">
+                 <h4>Footer</h4>
+            </div>
+   </div>
+   
+        <div data-role ="page" id = "tops" data-add-back-btn = "true">
+            <div data-role = "header" data-position = "fixed">
+                 <h1>Tops</h1>
+            </div>
+            <div data-role = "content">
+                 <ul data-role = "listview">
+                    <li>
+                       <a href = "tops.html">
+                           <image src = "Image/tshirt.png"/>
+                           <h3>T-shirts</h3>
+                           <p>Add your T here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "tops.html">
+                           <image src = "Image/long-sleeve.png"/>
+                           <h3>Long Sleeve</h3>
+                           <p>Add your long sleeve shirt here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "tops.html">
+                           <image src = "Image/blouse.png"/>
+                           <h3>Blouse</h3>
+                           <p>Add your blouse here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "tops.html">
+                           <image src = "Image/tank.png"/>
+                           <h3>Tank</h3>
+                           <p>Add your tank tops here!</p>
+                       </a>
+                       </li>
+                    <li>
+                       <a href = "tops.html">
+                           <image src = "Image/hoodie.png"/>
+                           <h3>Hoodies</h3>
+                           <p>Add your sweatshirts here!</p>
+                       </a>
+                       </li>
+                 </ul> 
+            </div>
+            <div data-role = "footer" data-position = "fixed">
+                 <h4>Footer</h4>
+            </div>
+   </div>
+        <div data-role ="page" id = "bottoms" data-add-back-btn = "true">
+            <div data-role = "header" data-position = "fixed">
+                 <h1>Bottoms</h1>
+            </div>
+            <div data-role = "content">
+                  <ul data-role = "listview">
+                    <li>
+                       <a href = "bottoms.html">
+                           <image src = "Image/jeans.png"/>
+                           <h3>Jeans</h3>
+                           <p>Add jeans here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "bottoms.html">
+                           <image src = "Image/khaki.png"/>
+                           <h3>Khaki</h3>
+                           <p>Add khakis here</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "bottoms.html">
+                           <image src = "Image/dresspant.png"/>
+                           <h3>Suit/Dress</h3>
+                           <p>Add your dress pants here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "bottoms.html">
+                           <image src = "Image/skirt.png"/>
+                           <h3>Skirts</h3>
+                           <p>Add skirts here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "bottoms.html">
+                           <image src = "Image/shorts.png"/>
+                           <h3>Shorts</h3>
+                           <p>Add shorts here!</p>
+                       </a>
+                    </li>
+				 </ul>
+            </div>
+            <div data-role = "footer" data-position = "fixed">
+                 <h4>Footer</h4>
+            </div>
+   </div>
+        <div data-role ="page" id = "handbags" data-add-back-btn = "true">
+            <div data-role = "header" data-position = "fixed">
+                 <h1>Handbags</h1>
+            </div>
+            <div data-role = "content">
+                  <ul data-role = "listview">
+                    <li>
+                       <a href = "handbags.html">
+                           <image src = "Image/clutch.png"/>
+                           <h3>Clutch</h3>
+                           <p>Add clutch here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "handbags.html">
+                           <image src = "Image/smallbag.png"/>
+                           <h3>Small Bags</h3>
+                           <p>Add small bags here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "handbags.html">
+                           <image src = "Image/medpurse.png"/>
+                           <h3>Medium Bags</h3>
+                           <p>Add medium bags here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "handbags.html">
+                           <image src = "Image/lgpurse.png"/>
+                           <h3>Large Bags</h3>
+                           <p>Add large bags here!</p>
+                       </a>
+                    </li>
+                    <li>
+                       <a href = "handbags.html">
+                           <image src = "Image/wristlet.png"/>
+                           <h3>Wristlets</h3>
+                           <p>Add wristlets here!</p>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role = "footer" data-position = "fixed">
+                 <h4>Footer</h4>
+            </div>
+   </div>
 
+
+        <div data-role = "footer" data-position = "fixed">
+                <h4>Footer</h4>
+        
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+     
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
